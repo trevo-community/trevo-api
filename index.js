@@ -24,8 +24,7 @@ module.exports = {
   
   getYTVideoDownloadLink: async function(videoUrl, username, key) {
     return fetchData(
-      '/anikit/ytmp4',
-      `username=${username}&key=${key}&videoUrl=${encodeURIComponent(videoUrl)}`
+      '/anikit/ytmp4', `username=${username}&key=${key}&videoUrl=${encodeURIComponent(videoUrl)}`
     );
   },
   
