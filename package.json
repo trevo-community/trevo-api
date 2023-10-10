@@ -1,0 +1,18 @@
+{
+  "name": "trevo-api",
+  "version": "1.0.3",
+  "description": "Example of using an API module",
+  "main": "apiModule.js",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/trevo-api"
+  },
+  "author": "@clovermods",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node exemplo.js"
+  }
+}
