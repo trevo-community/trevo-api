@@ -2,8 +2,8 @@ const apiModule = require('./index');
 
 // AVISO: Para usar este exemplo, você precisa fazer login em https://dark-lime-snapper-hat.cyclic.app/anikit para obter seu nome de usuário e chave de autenticação.
 
-const username = 'SUPREMO';
-const key = 'Adm';
+const username = 'username';
+const key = 'key';
 
 (async () => {
   try {
