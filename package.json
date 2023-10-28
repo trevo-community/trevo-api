@@ -6,9 +6,6 @@
   "dependencies": {
     "axios": "^0.24.0"
   },
-  "publishConfig": {
-    "registry": "https://www.npmjs.com/package/trevo-api"
-  },
   "author": "@clovermods",
   "license": "MIT",
   "devDependencies": {},
