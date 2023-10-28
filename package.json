@@ -2,7 +2,7 @@
   "name": "trevo-api",
   "version": "1.0.3",
   "description": "Example of using an API module",
-  "main": "apiModule.js",
+  "main": "index.js",
   "dependencies": {
     "axios": "^0.24.0"
   },
