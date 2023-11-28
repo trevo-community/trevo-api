@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const baseURL = 'dark-lime-snapper-hat.cyclic.app';
+const baseURL = 'happy-red-hummingbird.cyclic.app';
 
 async function fetchData(route, queryParams) {
   const url = ${baseURL}${route}?${queryParams};
