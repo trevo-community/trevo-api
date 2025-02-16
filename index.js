@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const baseURL = 'https://happy-red-hummingbird.cyclic.app';
+const baseURL = 'https://anikit-apis.onrender.com;
 
 async function fetchData(route, queryParams) {
   const url = `${baseURL}${route}?${queryParams}`;
