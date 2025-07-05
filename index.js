@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const baseURL = 'https://anikit-apis.onrender.com;
+const baseURL = 'https://anikit-apis.onrender.com';
 
 async function fetchData(route, queryParams) {
   const url = `${baseURL}${route}?${queryParams}`;
